@@ -49,26 +49,32 @@
                vertical-align:middle; }
   #brand b { font-size:15px; font-weight:700; letter-spacing:.14em;
              color:#e6ebf2; vertical-align:middle; }
-</style>
+.splash-logo {
+  width: 220px;
+  max-width: 70vw;
+  height: auto;
+  display: block;
+}
+
+.brand-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+  </style>
 </head>
 <body>
 
 <div id="splash">
-  <img src="hero313.jpg" alt="HERO-HB WAD-ALZAIN">
+  <img src="./hero313.jpg?v=2" alt="HERO-HB WAD-ALZAIN" class="splash-logo">
 </div>
 
 <div id="brand">
-  <img
-    src="hero313.jpg"
-    alt=""
-    width="28"
-    height="28"
-  />
+  <img src="./hero313.jpg?v=2"
+       alt="HERO-HB WAD-ALZAIN"
+       class="brand-logo">
   <b>HERO-HB WAD-ALZAIN</b>
-</div>
-  <div id="state">detecting firmware...</div>
-  <div id="det"></div>
-  <div id="cache"></div>
 </div>
 
 <script>
